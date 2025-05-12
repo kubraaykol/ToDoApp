@@ -1,0 +1,48 @@
+## Build 
+bin/
+obj/
+out/
+
+## Rider & VS Code 
+.idea/
+.vscode/
+*.code-workspace
+
+## user
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Log 
+*.log
+
+## DB
+*.mdf
+*.ldf
+*.sqlite
+*.db
+
+## dotnet cache
+.nuget/
+packages/
+
+## Docker
+**/.dockerignore
+docker-compose.override.yml
+.env
+
+## secrets
+secrets.json
+.env*
+
+## QA
+TestResults/
+*.trx
+
+## Publish
+publish/
+
+## OS specific
+.DS_Store
+Thumbs.db
